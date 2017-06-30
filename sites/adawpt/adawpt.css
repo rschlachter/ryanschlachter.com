@@ -1,0 +1,169 @@
+body {
+  width: 100%;
+  margin: 0;
+  background: #333;
+}
+
+hr {
+  border : 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #333, orange, #333);
+}
+
+a:link {
+    text-decoration: none;
+    color: orange;
+}
+
+a:visited {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  color: orange;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  color: orange;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.content-gallery {
+  padding: .5vw;
+  flex-flow: row wrap;
+  display: flex;
+  box-shadow:inset 1px 1px 40px 0;
+}
+
+.content-gallery div {
+  flex: auto;
+  width: 300px;
+  margin: .5vw;
+  position: relative;
+}
+
+.content-gallery div img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+
+}
+
+.content-gallery div:hover {
+  opacity: 0.6;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.content-gallery div:hover .text{
+  opacity: 1;
+  background-color: #333; opacity: 0.8;
+}
+
+
+
+
+.site-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #707070;
+  font-family: 'Lato', sans-serif;
+}
+
+.site-content p {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  color: orange;
+  padding: 2%;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer img {
+  padding: 5px;
+}
+
+iframe {
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 420px) {
+  .content-gallery {
+    padding: 0;
+  }
+
+  .content-gallery div {
+    margin: 0;
+  }
+
+  .menu ul {
+    flex-flow: column wrap;
+    text-align: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 830px) {
+  .footer {
+    flex-flow: column wrap;
+  }
+}

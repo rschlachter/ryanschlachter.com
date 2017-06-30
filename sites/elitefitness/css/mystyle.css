@@ -1,0 +1,170 @@
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar-nav {
+    margin-left: 170px;
+}
+
+.navbar {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0;
+    background-color: black;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.shipping {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px;
+    background-color: #0099ff;
+    height: 35px;
+    padding-top: 9px;
+}
+
+.buybutton {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 20px
+}
+
+.footer {
+    background-color: black;
+    border-color: #080808;
+    color: #9d9d9d;
+    margin-top: 20px;
+}
+
+.metcon2front {
+    padding-top: 50px;
+}
+
+.promo {
+    margin-top: 20px;
+}
+
+.off {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.tablecolor {
+    background-color: #99ffff;
+}
+
+.webfooter {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.titlefooter {
+    margin-top: 20px;
+    padding-bottom: 9px;
+}
+
+.last {
+    padding-top: 20px;
+}
+
+.social {
+    display: inline;
+}
+
+
+.sociallist {
+    padding: 0;
+}
+
+.connect {
+    padding-left: 10px;
+}
+
+/*Star Rating*/
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.3em;
+    font-size: 17px;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.barone {
+    margin-top: 40px;
+}
+
+.bartwo {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.barstop {
+    margin-top: 2px;
+}
+
+.shoebanner {
+    margin-top: 80px;
+    margin-bottom: -30px;
+}
+
+.metcon2 {
+    margin-top: 20px;  
+}
+
+.margintop {
+    margin-top: 20px;
+}
+
+.backgroundred {
+    background-color: #ff0000;
+}
